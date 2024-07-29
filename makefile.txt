@@ -16,8 +16,5 @@ clean:
 run:
 	./forca_bruta
 
-test:
-	./forca_bruta < 2.in
-
 mem_check:
 	valgrind -s --leak-check=full ./forca_bruta
